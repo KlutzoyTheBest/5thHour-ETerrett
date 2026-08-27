@@ -40,8 +40,8 @@ print(Goodbye)
 
 #9. Create a variable with a number that contains decimals.
 
-print(4.222222222)
+DecimalNumber = 4.222222222
 
 #10. Round the number from #9 up or down using the round function.
 
-print(round(4.222222222, 4))
+print(round(DecimalNumber, 4))
