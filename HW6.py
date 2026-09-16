@@ -9,7 +9,7 @@ NumberList = [12, 39, 122, 90, 60, 20, 35, 1, 84]
 
 #2. Sort the list from highest to lowest.
 
-NumberList.sort()
+NumberList.sort(reverse=True)
 print(NumberList)
 #3. Create an empty list.
 
