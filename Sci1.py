@@ -3,7 +3,6 @@
 #Assignment: Scenario 1
 
 import random
-from sys import hash_info
 
 #Scenario 1:
 #You are a programmer for a fledgling game developer. Your team lead has asked you
