@@ -25,8 +25,11 @@ else:
 #6. Create a nested if statement that prints if num is divisible by 2, divisible by 3, both, or neither.
 if num % 2 == 0:
     if num % 3 == 0:
-        print("num is divisible by 3")
+        print("num is divisible by 2 and 3")
     else:
         print("num is divisible by 2, but not 3")
 else:
-    print("num isn't divisible by either")
+    if num % 3 == 0:
+        print("num is divisible by 3, but not 2")
+    else:
+        print("num is divisible by neither")
