@@ -25,7 +25,7 @@ while j <= 30:
 #3. Create a while loop that prints from 1 to 30 and continues (skips the number) if the
 #number is divisible by 3.
 k = 1
-while k <= 30:
+while k < 30:
     k += 1
     if k % 3 == 0:
         continue
@@ -34,6 +34,7 @@ while k <= 30:
 
 #4. Create a while loop that randomly generates a number between 1 and 6, prints the result,
 #and then breaks the loop if it's a 1.
+
 l = random.randint(1, 6)
 while l < 7:
     if l == 1:
