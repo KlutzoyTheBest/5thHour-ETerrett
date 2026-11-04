@@ -36,7 +36,7 @@ while k < 30:
 #and then breaks the loop if it's a 1.
 
 l = random.randint(1, 6)
-while l < 7:
+while l != 7:
     if l == 1:
         break
     print(l)
